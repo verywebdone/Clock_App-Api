@@ -36,7 +36,6 @@ const upDateBG = (hours) => {
     let x = window.matchMedia("(max-width:599px)");
     let y = window.matchMedia("(max-width:899px)");
     let z = window.matchMedia("(min-width:900px)");
-    hours = 11;
     if(hours<12){
         daynightToggle[0].classList.toggle("hidden");
         daynightToggle[1].classList.toggle("hidden");
