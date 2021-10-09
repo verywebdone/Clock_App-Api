@@ -36,10 +36,11 @@ const upDateBG = (hours) => {
     let x = window.matchMedia("(max-width:599px)");
     let y = window.matchMedia("(max-width:899px)");
     let z = window.matchMedia("(min-width:900px)");
+    hours = 11;
     if(hours<12){
         daynightToggle[0].classList.toggle("hidden");
         daynightToggle[1].classList.toggle("hidden");
-        extra.style.backgroundColor = "rgba(255, 255, 255, 0.842)"
+        extra.style.backgroundColor = "rgba(255, 255, 255, 0.7)"
         extra.style.color = "black"
         border.style.borderColor = "rgba(0, 0, 0, 0.4)"
     }

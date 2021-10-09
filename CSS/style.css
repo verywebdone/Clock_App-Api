@@ -347,7 +347,7 @@ body div.extraInfo {
   overflow: hidden;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  background-color: rgba(0, 0, 0, 0.842);
+  background-color: rgba(0, 0, 0, 0.7);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   display: -webkit-box;
