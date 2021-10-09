@@ -39,7 +39,7 @@ const upDateBG = (hours) => {
     if(hours<12){
         daynightToggle[0].classList.toggle("hidden");
         daynightToggle[1].classList.toggle("hidden");
-        extra.style.backgroundColor = "rgba(255, 255, 255, 0.7)"
+        extra.style.backgroundColor = "rgba(255, 255, 255, 0.5)"
         extra.style.color = "black"
         border.style.borderColor = "rgba(0, 0, 0, 0.4)"
     }
